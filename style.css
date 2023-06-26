@@ -64,6 +64,10 @@ p {
 }
 .navbar {
   position: relative;
+  justify-content: space-around;
+}
+.ctn-btn {
+  padding-left: 20px;
 }
 .navbar a:hover {
   background: var(--main-color);
@@ -74,6 +78,7 @@ header {
   width: 100%;
   z-index: 1000;
   transition: all .40 ease;
+  justify-content: space-around;
 }
 
   /* CAROUSEL */
@@ -268,6 +273,34 @@ header {
   color: var(--main-color);
 }
 
+  /* ASSURANCE */
+  .container-approve {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    justify-content: space-around;
+    color: #fff;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .assur-item {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 10px;
+    border: 3px solid #0d74ba;
+    background-color: #0d74ba;
+    padding: 5px;
+    border-radius: 40px;
+    object-fit: cover;
+    
+  }
+
+
+  .assur-item-1 {
+    min-height: 100px;
+  }
+
+ 
   /* Devices */
 
 .gallery {
@@ -276,7 +309,7 @@ header {
     grid-gap: 2rem;
     padding: 50px;
     border-radius: 50%;
-    padding: 50px;
+    padding: 60px;
 }
   
 .Sample-websites h4{
