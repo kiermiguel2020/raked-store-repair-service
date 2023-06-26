@@ -38,6 +38,9 @@ p {
     --p-font: 1.1rem;
 
 }
+.carousel-caption {
+  text-shadow: 5px 5px #000000;
+}
 .btn {
   display: inline-block;
   border-radius: 0.5rem;
